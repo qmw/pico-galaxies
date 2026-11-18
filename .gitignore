@@ -1,0 +1,12 @@
+# local tooling / test runs
+.venv/
+__pycache__/
+pico_home/
+test_home/
+test_out/
+*_test.p8
+# build output (regenerate with ./export_html.sh)
+pico_galaxies_html/
+*.zip
+# full-size Krea renders (the build only uses the 32x32 sprites)
+assets/raw/*_raw.png
